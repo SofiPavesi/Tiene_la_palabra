@@ -7,7 +7,7 @@ from pygame.locals import *
 # from configuracion import *
 #from funcionesRESUELTO import *
 from extras import *
-from funcionesVACIAS import *
+from funciones import *
 
 #Funcion principal
 def main():
