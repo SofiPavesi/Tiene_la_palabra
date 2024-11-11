@@ -59,7 +59,7 @@ def esValida(letraPrincipal, letrasEnPantalla, candidata, diccionario):
 
 #Esta funcion toma a la palabra del usuario y verifica que no haya salido, luego que cumpla los codicionales para otorgar los puntos y agregarla a la lista de yaSalieron.Si no cumple los requisitos, resta ptos.
 palabrasSalidas=[]
-def procesar(letraPrincipal, letrasEnPantalla, candidata, diccionario, palabrasSalidas):
+def procesar(letraPrincipal, candidata, diccionario, palabrasSalidas):
     if candidata in palabrasSalidas:
         return -1
     elif len(candidata) >= 3 and letraPrincipal in candidata and candidata in diccionario:
